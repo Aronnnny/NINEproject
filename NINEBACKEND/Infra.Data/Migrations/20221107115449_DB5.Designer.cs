@@ -3,6 +3,7 @@ using System;
 using Infra.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Infra.Data.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20221107115449_DB5")]
+    partial class DB5
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "6.0.9");
@@ -25,8 +27,7 @@ namespace Infra.Data.Migrations
                     b.Property<int>("CPF")
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("DataNascimento")
-                        .IsRequired()
+                    b.Property<DateOnly>("DataNascimento")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Email")

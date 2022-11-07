@@ -13,7 +13,6 @@ F:\Projeto_NINEstore\NINEstore\NINEBACKEND\Domain\obj\Debug\net6.0\Domain.pdb
 F:\Projeto_NINEstore\NINEstore\NINEBACKEND\Domain\obj\Debug\net6.0\Domain.genruntimeconfig.cache
 F:\Projeto_NINEstore\NINEstore\NINEBACKEND\Domain\obj\Debug\net6.0\ref\Domain.dll
 E:\Projeto_NINEstore\NINEstore\NINEBACKEND\Domain\bin\Debug\net6.0\Domain.deps.json
-E:\Projeto_NINEstore\NINEstore\NINEBACKEND\Domain\bin\Debug\net6.0\Domain.runtimeconfig.json
 E:\Projeto_NINEstore\NINEstore\NINEBACKEND\Domain\bin\Debug\net6.0\Domain.dll
 E:\Projeto_NINEstore\NINEstore\NINEBACKEND\Domain\bin\Debug\net6.0\Domain.pdb
 E:\Projeto_NINEstore\NINEstore\NINEBACKEND\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
@@ -24,7 +23,6 @@ E:\Projeto_NINEstore\NINEstore\NINEBACKEND\Domain\obj\Debug\net6.0\Domain.csproj
 E:\Projeto_NINEstore\NINEstore\NINEBACKEND\Domain\obj\Debug\net6.0\Domain.dll
 E:\Projeto_NINEstore\NINEstore\NINEBACKEND\Domain\obj\Debug\net6.0\refint\Domain.dll
 E:\Projeto_NINEstore\NINEstore\NINEBACKEND\Domain\obj\Debug\net6.0\Domain.pdb
-E:\Projeto_NINEstore\NINEstore\NINEBACKEND\Domain\obj\Debug\net6.0\Domain.genruntimeconfig.cache
 E:\Projeto_NINEstore\NINEstore\NINEBACKEND\Domain\obj\Debug\net6.0\ref\Domain.dll
 D:\_src22\PI\AMS22\Projetos\3A\NINEBACKEND\Domain\bin\Debug\net6.0\Domain.deps.json
 D:\_src22\PI\AMS22\Projetos\3A\NINEBACKEND\Domain\bin\Debug\net6.0\Domain.dll

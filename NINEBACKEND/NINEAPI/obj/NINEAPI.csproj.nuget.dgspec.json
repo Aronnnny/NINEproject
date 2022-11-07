@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aronc\\Desktop\\TCC\\NINEBACKEND\\NINEAPI\\NINEAPI.csproj": {}
+    "E:\\Projeto_NINEstore\\NineStore\\NINEBACKEND\\NINEAPI\\NINEAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aronc\\Desktop\\TCC\\NINEBACKEND\\Domain\\Domain.csproj": {
+    "E:\\Projeto_NINEstore\\NineStore\\NINEBACKEND\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aronc\\Desktop\\TCC\\NINEBACKEND\\Domain\\Domain.csproj",
+        "projectUniqueName": "E:\\Projeto_NINEstore\\NineStore\\NINEBACKEND\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\aronc\\Desktop\\TCC\\NINEBACKEND\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\aronc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aronc\\Desktop\\TCC\\NINEBACKEND\\Domain\\obj\\",
+        "projectPath": "E:\\Projeto_NINEstore\\NineStore\\NINEBACKEND\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\programs\\.nuget\\packages\\",
+        "outputPath": "E:\\Projeto_NINEstore\\NineStore\\NINEBACKEND\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\aronc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\programs\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -43,8 +43,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -53,21 +52,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\aronc\\Desktop\\TCC\\NINEBACKEND\\Infra.Data\\Infra.Data.csproj": {
+    "E:\\Projeto_NINEstore\\NineStore\\NINEBACKEND\\Infra.Data\\Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aronc\\Desktop\\TCC\\NINEBACKEND\\Infra.Data\\Infra.Data.csproj",
+        "projectUniqueName": "E:\\Projeto_NINEstore\\NineStore\\NINEBACKEND\\Infra.Data\\Infra.Data.csproj",
         "projectName": "Infra.Data",
-        "projectPath": "C:\\Users\\aronc\\Desktop\\TCC\\NINEBACKEND\\Infra.Data\\Infra.Data.csproj",
-        "packagesPath": "C:\\Users\\aronc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aronc\\Desktop\\TCC\\NINEBACKEND\\Infra.Data\\obj\\",
+        "projectPath": "E:\\Projeto_NINEstore\\NineStore\\NINEBACKEND\\Infra.Data\\Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\programs\\.nuget\\packages\\",
+        "outputPath": "E:\\Projeto_NINEstore\\NineStore\\NINEBACKEND\\Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\aronc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\programs\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -79,8 +78,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\aronc\\Desktop\\TCC\\NINEBACKEND\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\aronc\\Desktop\\TCC\\NINEBACKEND\\Domain\\Domain.csproj"
+              "E:\\Projeto_NINEstore\\NineStore\\NINEBACKEND\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\Projeto_NINEstore\\NineStore\\NINEBACKEND\\Domain\\Domain.csproj"
               }
             }
           }
@@ -122,8 +121,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -132,21 +130,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\aronc\\Desktop\\TCC\\NINEBACKEND\\NINEAPI\\NINEAPI.csproj": {
+    "E:\\Projeto_NINEstore\\NineStore\\NINEBACKEND\\NINEAPI\\NINEAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aronc\\Desktop\\TCC\\NINEBACKEND\\NINEAPI\\NINEAPI.csproj",
+        "projectUniqueName": "E:\\Projeto_NINEstore\\NineStore\\NINEBACKEND\\NINEAPI\\NINEAPI.csproj",
         "projectName": "NINEAPI",
-        "projectPath": "C:\\Users\\aronc\\Desktop\\TCC\\NINEBACKEND\\NINEAPI\\NINEAPI.csproj",
-        "packagesPath": "C:\\Users\\aronc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aronc\\Desktop\\TCC\\NINEBACKEND\\NINEAPI\\obj\\",
+        "projectPath": "E:\\Projeto_NINEstore\\NineStore\\NINEBACKEND\\NINEAPI\\NINEAPI.csproj",
+        "packagesPath": "C:\\Users\\programs\\.nuget\\packages\\",
+        "outputPath": "E:\\Projeto_NINEstore\\NineStore\\NINEBACKEND\\NINEAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\aronc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\programs\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -158,14 +156,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\aronc\\Desktop\\TCC\\NINEBACKEND\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\aronc\\Desktop\\TCC\\NINEBACKEND\\Domain\\Domain.csproj"
+              "E:\\Projeto_NINEstore\\NineStore\\NINEBACKEND\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\Projeto_NINEstore\\NineStore\\NINEBACKEND\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\aronc\\Desktop\\TCC\\NINEBACKEND\\Infra.Data\\Infra.Data.csproj": {
-                "projectPath": "C:\\Users\\aronc\\Desktop\\TCC\\NINEBACKEND\\Infra.Data\\Infra.Data.csproj"
+              "E:\\Projeto_NINEstore\\NineStore\\NINEBACKEND\\Infra.Data\\Infra.Data.csproj": {
+                "projectPath": "E:\\Projeto_NINEstore\\NineStore\\NINEBACKEND\\Infra.Data\\Infra.Data.csproj"
               },
-              "C:\\Users\\aronc\\Desktop\\TCC\\NINEBACKEND\\Service\\Service.csproj": {
-                "projectPath": "C:\\Users\\aronc\\Desktop\\TCC\\NINEBACKEND\\Service\\Service.csproj"
+              "E:\\Projeto_NINEstore\\NineStore\\NINEBACKEND\\Service\\Service.csproj": {
+                "projectPath": "E:\\Projeto_NINEstore\\NineStore\\NINEBACKEND\\Service\\Service.csproj"
               }
             }
           }
@@ -209,8 +207,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -222,21 +219,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\aronc\\Desktop\\TCC\\NINEBACKEND\\Service\\Service.csproj": {
+    "E:\\Projeto_NINEstore\\NineStore\\NINEBACKEND\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aronc\\Desktop\\TCC\\NINEBACKEND\\Service\\Service.csproj",
+        "projectUniqueName": "E:\\Projeto_NINEstore\\NineStore\\NINEBACKEND\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Users\\aronc\\Desktop\\TCC\\NINEBACKEND\\Service\\Service.csproj",
-        "packagesPath": "C:\\Users\\aronc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aronc\\Desktop\\TCC\\NINEBACKEND\\Service\\obj\\",
+        "projectPath": "E:\\Projeto_NINEstore\\NineStore\\NINEBACKEND\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\programs\\.nuget\\packages\\",
+        "outputPath": "E:\\Projeto_NINEstore\\NineStore\\NINEBACKEND\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\aronc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\programs\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -248,11 +245,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\aronc\\Desktop\\TCC\\NINEBACKEND\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\aronc\\Desktop\\TCC\\NINEBACKEND\\Domain\\Domain.csproj"
+              "E:\\Projeto_NINEstore\\NineStore\\NINEBACKEND\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\Projeto_NINEstore\\NineStore\\NINEBACKEND\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\aronc\\Desktop\\TCC\\NINEBACKEND\\Infra.Data\\Infra.Data.csproj": {
-                "projectPath": "C:\\Users\\aronc\\Desktop\\TCC\\NINEBACKEND\\Infra.Data\\Infra.Data.csproj"
+              "E:\\Projeto_NINEstore\\NineStore\\NINEBACKEND\\Infra.Data\\Infra.Data.csproj": {
+                "projectPath": "E:\\Projeto_NINEstore\\NineStore\\NINEBACKEND\\Infra.Data\\Infra.Data.csproj"
               }
             }
           }
@@ -272,8 +269,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -282,7 +278,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
