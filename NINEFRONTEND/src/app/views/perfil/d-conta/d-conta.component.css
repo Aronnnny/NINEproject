@@ -1,0 +1,279 @@
+
+a {
+    text-decoration: none;
+    color: #212121;
+}
+
+.buttons {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 55em;
+    gap: 20px;
+}
+
+.buttons button {
+    display: flex;
+    justify-content: flex-end;
+    border: none;
+    background: #212121;
+    color: white;
+    padding: 10px;
+    border-radius: 100px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+#linha-vertical {
+    display: flex;
+    left: 200px;
+    position: absolute;
+    height: 220px;
+    border-right: 1px solid gray;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5em;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 5px;
+}
+
+.infos {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-top: 2em;
+    margin-left: 20em;
+    flex-direction: column;
+    width: 50em;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.infos p {
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Barra Lateral */
+.navegation p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navegation {
+    gap: 20px;
+    flex-direction: column;
+    display: flex;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.line {
+    display: flex;
+    position: absolute;
+    gap: 20px;
+    flex-direction: column;
+    width: 200px;
+    border-left-style: groove;
+}
+
+.navegation button {
+    display: flex;
+    justify-content: flex-start;
+    color: #212121;
+    background: white;
+    border: none;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.cta span {
+    padding-bottom: 7px;
+    font-size: 20px;
+    padding-right: 15px;
+    text-transform: uppercase;
+}
+
+.opt-order {
+    position: relative;
+    color: #212121;
+    padding-bottom: 20px;
+}
+
+.opt-order:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.cta:hover .opt-order:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.cta img {
+    height: 20px;
+}
+
+.opt-order {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.opt-order:active {
+    transform: translateY(-1px);
+}
+
+.direitos {
+    position: absolute;
+    margin: auto;
+    top: 67em;
+    left: 5em;
+    font-family: 'Bebas Neue', cursive;
+}
+
+/* Informações do usuario */
+.user-info {
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.user-info p {
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.input-group-two {
+    position: relative;
+}
+
+.input-group-two input {
+    border: solid 1.5px gray;
+    background: none;
+    padding: 1rem;
+    width: 51em;
+    font-size: 1rem;
+    color: black;
+    transition: border 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input {
+    border: solid 1.5px gray;
+    background: none;
+    width: 350px;
+    padding: 1rem;
+    font-size: 1rem;
+    color: black;
+    transition: border 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.user-label {
+    position: absolute;
+    left: 15px;
+    color: black;
+    pointer-events: none;
+    transform: translateY(1rem);
+    transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input:focus,
+input:valid {
+    outline: none;
+    border: 1.5px solid #212121;
+}
+
+.input:focus~label,
+input:valid~label {
+    transform: translateY(-50%) scale(0.8);
+    background-color: white;
+    padding: 0 .2em;
+    color: black;
+}
+
+.password {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5em;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 5px;
+}
+
+.password h1 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+#password {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.btn-pass{
+    display: flex;
+    position: absolute;
+    margin-top: 150px;
+}
+
+.save-alterations {
+    position: absolute;
+    margin-right: 38em;
+    padding: 15px 25px;
+    border: unset;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms;
+    overflow: hidden;
+}
+
+.save-alterations::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: #212121;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 600ms
+}
+
+.save-alterations:hover {
+    color: #f36bff;
+    transition: all 900ms;
+}
+
+.save-alterations:hover::before {
+    width: 100%;
+}
+
+.save-alterations:active {
+    transform: translateY(-3px);
+}

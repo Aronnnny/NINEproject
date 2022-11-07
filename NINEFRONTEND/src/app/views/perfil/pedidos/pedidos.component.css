@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: #212121;
+}
+
+.buttons {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 55em;
+    gap: 20px;
+}
+
+.buttons button {
+    display: flex;
+    justify-content: flex-end;
+    border: none;
+    background: #212121;
+    color: white;
+    padding: 10px;
+    border-radius: 100px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+#linha-vertical {
+    display: flex;
+    left: 200px;
+    position: absolute;
+    height: 220px;
+    border-right: 1px solid gray;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 15%;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 5px;
+}
+
+.navegation p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navegation {
+    gap: 20px;
+    flex-direction: column;
+    display: flex;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.line {
+    display: flex;
+    position: absolute;
+    gap: 20px;
+    flex-direction: column;
+    width: 200px;
+    border-left-style: groove;
+}
+
+.navegation button {
+    display: flex;
+    justify-content: flex-start;
+    color: #212121;
+    background: white;
+    border: none;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.cta span {
+    padding-bottom: 7px;
+    font-size: 20px;
+    padding-right: 15px;
+    text-transform: uppercase;
+}
+
+.opt-order {
+    position: relative;
+    color: #212121;
+    padding-bottom: 20px;
+}
+
+.opt-order:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.cta:hover .opt-order:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.cta img {
+    height: 20px;
+}
+
+.opt-order {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.opt-order:active {
+    transform: translateY(-1px);
+}
+
+.direitos {
+    position: absolute;
+    margin: auto;
+    top: 45em;
+    left: 5em;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.product p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-product {
+    padding: 15px 25px;
+    border: unset;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms;
+    overflow: hidden;
+}
+
+.btn-product::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: #212121;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 600ms
+}
+
+.btn-product:hover {
+    color: #f36bff;
+    transition: all 900ms;
+}
+
+.btn-product:hover::before {
+    width: 100%;
+}
+
+.btn-product:active {
+    transform: translateY(-3px);
+}

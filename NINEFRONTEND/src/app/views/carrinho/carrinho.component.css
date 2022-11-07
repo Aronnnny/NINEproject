@@ -1,0 +1,169 @@
+.buttons {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 55em;
+    gap: 20px;
+}
+
+.buttons button {
+    display: flex;
+    justify-content: flex-end;
+    border: none;
+    background: black;
+    color: white;
+    padding: 10px;
+    border-radius: 100px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+ul,
+li {
+    list-style-type: none;
+    display: flex;
+}
+
+ul,
+li,
+a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+a {
+    display: flex;
+    padding: 10px;
+    background: black;
+    border-radius: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 0%;
+}
+
+.product {
+    display: grid;
+    grid-template-columns: 100px 350px 315px 120px 200px;
+    width: 60em;
+    align-items: center;
+}
+
+.product p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.product img {
+    height: 100px;
+}
+
+.info {
+    width: 60em;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(245, 245, 245);
+    margin-top: 10px;
+}
+
+.box h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.remove-product {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+    background: #e62222;
+    color: white;
+}
+
+.remove-product span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.remove-product:active {
+    transform: translateY(-1px);
+}
+
+
+/* Botão Finalizar Compra */
+.main_div {
+    --color: #ff13ff;
+    position: relative;
+    z-index: 1;
+   }
+   
+   .main_div::before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    top: -7px;
+    left: -7px;
+    z-index: -5;
+    border-top: 3px solid var(--color);
+    border-left: 3px solid var(--color);
+    transition: 0.5s;
+   }
+   
+   .main_div::after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    bottom: -7px;
+    right: -7px;
+    z-index: -5;
+    border-right: 3px solid var(--color);
+    border-bottom: 3px solid var(--color);
+    transition: 0.5s;
+   }
+   
+   .main_div:hover::before {
+    width: 100%;
+    height: 100%;
+   }
+   
+   .main_div:hover::after {
+    width: 100%;
+    height: 100%;
+   }
+   
+   .main_div button {
+    padding: 0.7em 2em;
+    font-size: 16px;
+    background: #000000;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+   }
+  .btnbuy {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+    gap: 20px;
+  }
