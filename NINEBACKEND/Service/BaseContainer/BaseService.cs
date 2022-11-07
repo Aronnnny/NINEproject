@@ -5,40 +5,45 @@ using System.Threading.Tasks;
 using Domain.Interfaces;
 using Domain.Model;
 using Microsoft.EntityFrameworkCore;
+using Infra.Data.Context;
 
 namespace Service.BaseContainer
 {
     public class BaseService<T> : IServiceBase<T> where T : class
     {
-    
+        private readonly DataContext context;
+        public BaseService(DataContext context)
+        {
+            this.context = context;
+        }
         public void Add(T entity)
         {
-            throw new NotImplementedException();
+            this.context.Add(entity);
         }
 
         public void Delete(T entity)
         {
-            throw new NotImplementedException();
+            this.context.Set<T>().Remove(entity);
         }
 
-        public Task<IEnumerable<T>> GetAll()
+        public async Task<IEnumerable<T>> GetAll()
         {
-            throw new NotImplementedException();
+            return await this.context.Set<T>().ToListAsync();
         }
 
-        public Task<T> GetById(string id)
+        public async Task<T> GetById(string id)
         {
-            throw new NotImplementedException();
+            return await this.context.Set<T>().FindAsync(id);
         }
 
-        public Task<bool> SaveChangeAsync()
+        public async Task<bool> SaveChangeAsync()
         {
-            throw new NotImplementedException();
+            return (await this.context.SaveChangesAsync()) > 0;
         }
 
         public void Update(T entity)
         {
-            throw new NotImplementedException();
-        }
+            this.context.Set<T>().Update(entity);
         }
     }
+}

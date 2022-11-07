@@ -3,6 +3,7 @@ using Domain.Interfaces;
 using Domain.Entity;
 using Domain.Model;
 using Microsoft.AspNetCore.Mvc;
+using Infra.Data.Context;
 
 namespace NINEAPI.Controllers
 {
@@ -42,14 +43,14 @@ namespace NINEAPI.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post(ClienteModel clienteModel)
+        public async Task<IActionResult> Post(ClienteModel ClienteModel)
         {
-            var prod1 = this.Mapper.Map<Cliente>(clienteModel);
+            var cli1 = this.Mapper.Map<Cliente>(ClienteModel);
 
-            this.Service.Add(prod1);
+            this.Service.Add(cli1);
 
             if (await this.Service.SaveChangeAsync())
-                return Created($"api/Cliente/{clienteModel.Id}", clienteModel);
+                return Created($"api/Cliente/{ClienteModel.Id}", ClienteModel);
             return BadRequest();
         }
 
