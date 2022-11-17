@@ -12,6 +12,9 @@ import { CadastroComponent } from './views/login/cadastro/cadastro.component';
 import { RecuperarsenhaComponent } from './views/login/recuperarsenha/recuperarsenha.component';
 import { CheckoutComponent } from './views/checkout/checkout.component';
 import { ProdutoComponent } from './views/produto/produto.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { LoginComponent } from './views/login/login.component';
+
 
 
 @NgModule({
@@ -22,6 +25,7 @@ import { ProdutoComponent } from './views/produto/produto.component';
     PedidosComponent,
     EnderecoComponent,
     DContaComponent,
+    LoginComponent,
     CadastroComponent,
     RecuperarsenhaComponent,
     CheckoutComponent,
@@ -30,7 +34,8 @@ import { ProdutoComponent } from './views/produto/produto.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

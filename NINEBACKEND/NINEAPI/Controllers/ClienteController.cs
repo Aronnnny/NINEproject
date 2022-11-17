@@ -22,16 +22,11 @@ namespace NINEAPI.Controllers
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            try
-            {
-                var entity = await this.Service.GetAll();
-                var results = this.Mapper.Map<ClienteModel[]>(entity);
-                return Ok(results);
-            }
-            catch (System.Exception ex)
-            {
-                throw new Exception(ex.Message);
-            }
+
+            var entity = await this.Service.GetAll();
+            var results = this.Mapper.Map<ClienteModel[]>(entity);
+            return Ok(results);
+
         }
 
         [HttpGet("{Id}")]

@@ -13,35 +13,35 @@
             <p>Camisa Nine Lean</p>
             <p>1</p>
             <p>R$1.499,50</p>
-            <button class="remove-product"><span>X</span></button>
+            <button class="remove-product" data-bs-toggle="modal" data-bs-target="#delfornecedoresModal"></button>
         </div>
         <div class="product">
             <img src="assets/teste1.jpg" alt="">
             <p>Camisa Nine Lean</p>
             <p>1</p>
             <p>R$1.499,50</p>
-            <button class="remove-product"><span>X</span></button>
+            <button class="remove-product" data-bs-toggle="modal" data-bs-target="#delfornecedoresModal"></button>
         </div>
         <div class="product">
             <img src="assets/teste1.jpg" alt="">
             <p>Camisa Nine Lean</p>
             <p>1</p>
             <p>R$1.499,50</p>
-            <button class="remove-product"><span>X</span></button>
+            <button class="remove-product" data-bs-toggle="modal" data-bs-target="#delfornecedoresModal"></button>
         </div>
         <div class="product">
             <img src="assets/teste1.jpg" alt="">
             <p>Camisa Nine Lean</p>
             <p>1</p>
             <p>R$1.499,50</p>
-            <button class="remove-product"><span>X</span></button>
+            <button class="remove-product" data-bs-toggle="modal" data-bs-target="#delfornecedoresModal"></button>
         </div>
         <div class="product">
             <img src="assets/teste1.jpg" alt="">
             <p>Camisa Nine Lean</p>
             <p>1</p>
             <p>R$1.499,50</p>
-            <button class="remove-product"><span>X</span></button>
+            <button class="remove-product" data-bs-toggle="modal" data-bs-target="#delfornecedoresModal"></button>
         </div>
     </div>
 </div>
@@ -51,4 +51,36 @@
             Finalizar Compra
         </button>
     </div>
-</div>
+
+
+    <div
+    class="modal fade"
+    id="delfornecedoresModal"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">
+            Deletar Fornecedor
+          </h5>
+        </div>
+        <div class="modal-body">
+          <legend>Você tem certeza que deseja deletar?</legend>
+        </div>
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="fechar btn btn-danger"
+            data-bs-dismiss="modal"
+          >
+            Não
+          </button>
+          <button type="button" class="salvar btn btn-success">Sim</button>
+        </div>
+      </div>
+    </div>
+  </div>
+

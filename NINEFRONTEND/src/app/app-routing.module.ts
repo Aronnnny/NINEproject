@@ -11,6 +11,9 @@ import { CadastroComponent } from './views/login/cadastro/cadastro.component';
 import { RecuperarsenhaComponent } from './views/login/recuperarsenha/recuperarsenha.component';
 import { CheckoutComponent } from './views/checkout/checkout.component';
 import { ProdutoComponent } from './views/produto/produto.component';
+import { HttpClientModule } from '@angular/common/http';
+
+
 
 const routes: Routes = [{path: 'login',component:LoginComponent},
 {path: 'home',component:HomeComponent},
@@ -25,7 +28,7 @@ const routes: Routes = [{path: 'login',component:LoginComponent},
 {path: 'produto',component:ProdutoComponent},];
 
 @core.NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes),HttpClientModule,],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
