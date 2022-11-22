@@ -14,7 +14,6 @@ import { ProdutoComponent } from './views/produto/produto.component';
 import { HttpClientModule } from '@angular/common/http';
 
 
-
 const routes: Routes = [{path: 'login',component:LoginComponent},
 {path: 'home',component:HomeComponent},
 {path: 'carrinho',component:CarrinhoComponent},
@@ -25,7 +24,7 @@ const routes: Routes = [{path: 'login',component:LoginComponent},
 {path: 'cadastro',component:CadastroComponent},
 {path: 'recuperarsenha',component:RecuperarsenhaComponent},
 {path: 'checkout',component:CheckoutComponent},
-{path: 'produto',component:ProdutoComponent},];
+{path: 'produto',component:ProdutoComponent},]
 
 @core.NgModule({
   imports: [RouterModule.forRoot(routes),HttpClientModule,],

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qrwCGZ2p5b7V77dSmP3Ul73XA2Djdpj60WtIilXTzKkS40EUyy1mmc7EWdNtAOM+kwcUMeuCz1Y4O+m4M0zXQw==",
+  "dgSpecHash": "BWjg7ij1SUDWxUrMN7ZMBUMvg/N6B9JIBQhQmAwSbn+9sTbcdCkysrafSD4xscUbPsw8ZlRKLVu6W2ShQHishw==",
   "success": true,
-  "projectFilePath": "E:\\Projeto_NINEstore\\NineStore\\NINEBACKEND\\Service\\Service.csproj",
+  "projectFilePath": "D:\\Projeto_NINEstore\\NineStore\\NINEproject\\NINEBACKEND\\Service\\Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aronc\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\aronc\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

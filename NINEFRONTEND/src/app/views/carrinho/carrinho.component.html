@@ -8,41 +8,29 @@
             <h1>Quantidade</h1>
             <h1>Valor</h1>
         </div>
-        <div class="product">
-            <img src="assets/teste1.jpg" alt="">
-            <p>Camisa Nine Lean</p>
-            <p>1</p>
-            <p>R$1.499,50</p>
-            <button class="remove-product" data-bs-toggle="modal" data-bs-target="#delfornecedoresModal"></button>
-        </div>
-        <div class="product">
-            <img src="assets/teste1.jpg" alt="">
-            <p>Camisa Nine Lean</p>
-            <p>1</p>
-            <p>R$1.499,50</p>
-            <button class="remove-product" data-bs-toggle="modal" data-bs-target="#delfornecedoresModal"></button>
-        </div>
-        <div class="product">
-            <img src="assets/teste1.jpg" alt="">
-            <p>Camisa Nine Lean</p>
-            <p>1</p>
-            <p>R$1.499,50</p>
-            <button class="remove-product" data-bs-toggle="modal" data-bs-target="#delfornecedoresModal"></button>
-        </div>
-        <div class="product">
-            <img src="assets/teste1.jpg" alt="">
-            <p>Camisa Nine Lean</p>
-            <p>1</p>
-            <p>R$1.499,50</p>
-            <button class="remove-product" data-bs-toggle="modal" data-bs-target="#delfornecedoresModal"></button>
-        </div>
-        <div class="product">
-            <img src="assets/teste1.jpg" alt="">
-            <p>Camisa Nine Lean</p>
-            <p>1</p>
-            <p>R$1.499,50</p>
-            <button class="remove-product" data-bs-toggle="modal" data-bs-target="#delfornecedoresModal"></button>
-        </div>
+        <div class="container">
+          <div class="card-table">
+              <div class="cart-product">
+                  <table class="table table-responsive">
+                      <tbody >
+                          <tr *ngFor="let item of products">
+                              <td><img src="{{item.urlImage}}" alt=""></td>
+                              <td>{{item.quantidade}}</td>
+                              <td>{{item.valor}}</td>
+                              <td>
+                                  <button  class="btn" ><i class="fa fa-trash" aria-hidden="true"></i></button>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td colspan="3"></td>
+                              <td><a class="compra btn-sucess"  href="finalizada" >Comprar</a></td>
+                              <td><strong>Total: R$</strong></td>
+                          </tr>
+                      </tbody>
+                  </table>
+              </div>
+          </div>
+         </div>
     </div>
 </div>
 <div class="btnbuy">
@@ -52,35 +40,4 @@
         </button>
     </div>
 
-
-    <div
-    class="modal fade"
-    id="delfornecedoresModal"
-    tabindex="-1"
-    aria-labelledby="exampleModalLabel"
-    aria-hidden="true"
-  >
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">
-            Deletar Fornecedor
-          </h5>
-        </div>
-        <div class="modal-body">
-          <legend>Você tem certeza que deseja deletar?</legend>
-        </div>
-        <div class="modal-footer">
-          <button
-            type="button"
-            class="fechar btn btn-danger"
-            data-bs-dismiss="modal"
-          >
-            Não
-          </button>
-          <button type="button" class="salvar btn btn-success">Sim</button>
-        </div>
-      </div>
-    </div>
-  </div>
 

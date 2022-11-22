@@ -19,6 +19,8 @@ namespace Infra.Data.Mapping
             CreateMap<Endereco, EnderecoModel>().ReverseMap();
             CreateMap<Pedido, PedidoModel>().ReverseMap();
             CreateMap<PedidoDetalhes, PedidoDetalhesModel>().ReverseMap();
+            CreateMap<Admin, AdminModel>().ReverseMap();
+
         }
     }
 }

@@ -2861,11 +2861,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projeto_NINEstore\\NineStore\\NINEBACKEND\\NINEAPI\\NINEAPI.csproj",
+      "projectUniqueName": "D:\\Projeto_NINEstore\\NineStore\\NINEproject\\NINEBACKEND\\NINEAPI\\NINEAPI.csproj",
       "projectName": "NINEAPI",
-      "projectPath": "E:\\Projeto_NINEstore\\NineStore\\NINEBACKEND\\NINEAPI\\NINEAPI.csproj",
+      "projectPath": "D:\\Projeto_NINEstore\\NineStore\\NINEproject\\NINEBACKEND\\NINEAPI\\NINEAPI.csproj",
       "packagesPath": "C:\\Users\\aronc\\.nuget\\packages\\",
-      "outputPath": "E:\\Projeto_NINEstore\\NineStore\\NINEBACKEND\\NINEAPI\\obj\\",
+      "outputPath": "D:\\Projeto_NINEstore\\NineStore\\NINEproject\\NINEBACKEND\\NINEAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\aronc\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -2880,14 +2880,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\Projeto_NINEstore\\NineStore\\NINEBACKEND\\Domain\\Domain.csproj": {
-              "projectPath": "E:\\Projeto_NINEstore\\NineStore\\NINEBACKEND\\Domain\\Domain.csproj"
+            "D:\\Projeto_NINEstore\\NineStore\\NINEproject\\NINEBACKEND\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\Projeto_NINEstore\\NineStore\\NINEproject\\NINEBACKEND\\Domain\\Domain.csproj"
             },
-            "E:\\Projeto_NINEstore\\NineStore\\NINEBACKEND\\Infra.Data\\Infra.Data.csproj": {
-              "projectPath": "E:\\Projeto_NINEstore\\NineStore\\NINEBACKEND\\Infra.Data\\Infra.Data.csproj"
+            "D:\\Projeto_NINEstore\\NineStore\\NINEproject\\NINEBACKEND\\Infra.Data\\Infra.Data.csproj": {
+              "projectPath": "D:\\Projeto_NINEstore\\NineStore\\NINEproject\\NINEBACKEND\\Infra.Data\\Infra.Data.csproj"
             },
-            "E:\\Projeto_NINEstore\\NineStore\\NINEBACKEND\\Service\\Service.csproj": {
-              "projectPath": "E:\\Projeto_NINEstore\\NineStore\\NINEBACKEND\\Service\\Service.csproj"
+            "D:\\Projeto_NINEstore\\NineStore\\NINEproject\\NINEBACKEND\\Service\\Service.csproj": {
+              "projectPath": "D:\\Projeto_NINEstore\\NineStore\\NINEproject\\NINEBACKEND\\Service\\Service.csproj"
             }
           }
         }

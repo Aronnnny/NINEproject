@@ -9,5 +9,6 @@ namespace Domain.Entity
         public string Tamanho { get; set; }="";
         public string Imagem { get; set; }="";
         public float Valor { get; set; }
+        public string urlImage {get; set;}="";
     }
 }

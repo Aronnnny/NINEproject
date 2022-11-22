@@ -14,7 +14,8 @@
                             <div class="form-group">
                                 <label class="form-control-label text-muted">Email ou Telefone</label>
                                 <input formControlName="Email" type="text" id="email" name="email"
-                                    placeholder="Telefone ou E-mail" class="form-control">
+                                    placeholder="Telefone ou E-mail" class="form-control" type="email" required>
+                                    <!-- <span class="text-danger" *ngIf="signupForm.controls['email'].dirty && signupForm.hasError('required','email')">Email Necessário</span> -->
                             </div>
 
                             <div class="form-group">
@@ -25,7 +26,7 @@
 
 
                             <div class="row justify-content-center my-3 px-3">
-                                <button type="submit" class="btn-block btn-color">Cadastrar</button>
+                                <button type="submit" class="btn-block btn-color" [disabled]="!signupForm.valid">Cadastrar</button>
                             </div>
                         </form>
 

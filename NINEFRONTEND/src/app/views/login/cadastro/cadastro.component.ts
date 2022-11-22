@@ -1,7 +1,8 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormBuilder } from '@angular/forms';
+import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
+import { Validator } from '@angular/forms';
 
 @Component({
   selector: 'app-cadastro',
@@ -16,8 +17,8 @@ export class CadastroComponent implements OnInit {
 
   ngOnInit(): void {
     this.signupForm = this.formBuilder.group({
-      Email: [''],
-      Senha: [''],
+      Email: ['',Validators.required],
+      Senha: ['', Validators.required],
 
     })
   }

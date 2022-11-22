@@ -17,6 +17,24 @@ namespace Infra.Data.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "6.0.9");
 
+            modelBuilder.Entity("Domain.Entity.Admin", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Senha")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Admin");
+                });
+
             modelBuilder.Entity("Domain.Entity.Cliente", b =>
                 {
                     b.Property<string>("Id")
@@ -80,6 +98,10 @@ namespace Infra.Data.Migrations
 
                     b.Property<float>("Valor")
                         .HasColumnType("REAL");
+
+                    b.Property<string>("urlImage")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
 
                     b.HasKey("Id");
 

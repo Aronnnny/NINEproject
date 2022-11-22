@@ -2,7 +2,7 @@
 <img src="assets/background.jpg" width="100%">
 
 <br>
-<ul class="btnproduct">
+<!-- <ul class="btnproduct">
   <section class="container grid grid-template-columns2"><button class="but"> Lançamentos
     </button>
     <button class="but"> Acessórios
@@ -10,20 +10,52 @@
     <button class="but"> Coleções
     </button>
   </section>
-</ul>
+</ul> -->
 
 <br>
 
-
+<!-- <div class="container produto">
+  <div class="row">
+    <ng-container >
+     
+        <div class="card col-md-4">
+          <div class="image-product">
+            <img src="{{ite.urlImage}}">
+          </div>
+          <div class="title" >
+            <h1  style="overflow: hidden;text-overflow: ellipsis;max-width: 220px;white-space: nowrap;"></h1>
+          </div>
+          <div class="description">
+            <span style="overflow: hidden;text-overflow: ellipsis;max-width: 200px;white-space: nowrap;"></span>
+          </div>
+          <div class="price-product">
+            <h1>R$ {{item.valor}}</h1>
+        </div>
+  
+        <button class="cssbuttons-io-button" (click)="addcarrinho(produto)"> Ver Mais
+         
+        </button>
+      </div>
+      
+      
+    </ng-container>
+      
+      
+   
+      
+ 
+ 
+</div>
+</div> -->
 <ul class="gridbox">
   <li class="gridboxx">
     <div>
       <section class="container grid grid-template-columns">
-        <div class="item">
-          <div class="container">
+        <div class="item" >
+          <div class="container" *ngFor = "let item of produtos">
             <div class="card">
               <div class="imgBx">
-                <img src="assets/teste3s.png">
+                <img src="{{item.urlImage}}">
               </div>
               <div class="contentBx">
                 <div class="size">
@@ -40,163 +72,15 @@
                   <span></span>
                 </div>
                 <div class="buy">
-                  <button class="btn">
-                    <span>COMPRAR</span><i></i>
-                  </button>
-                  <div class="color">
-                    <button class="detalhes">Ver detalhes</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="container">
-            <div class="card">
-              <div class="imgBx">
-                <img src="assets/teste1s.png">
-              </div>
-              <div class="contentBx">
-                <div class="size">
-                  <h3>Size :</h3>
-                  <span>P</span>
-                  <span>M</span>
-                  <span>G</span>
-                  <span>GG</span>
-                </div>
-                <div class="color">
-                  <h3>Cores :</h3>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </div>
-                <div class="buy">
-                  <button class="btn">
-                    <span>COMPRAR</span><i></i>
+                  <button class="btn" (click)=addcarrinho(produto) routerLink="/carrinho">
+                    <span>{{item.valor}}</span><i></i>
                   </button>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="item">
-          <div class="container">
-            <div class="card">
-              <div class="imgBx">
-                <img src="assets/teste2s.png">
-              </div>
-              <div class="contentBx">
-                <div class="size">
-                  <h3>Size :</h3>
-                  <span>P</span>
-                  <span>M</span>
-                  <span>G</span>
-                  <span>GG</span>
-                </div>
-                <div class="color">
-                  <h3>Cores :</h3>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </div>
-                <div class="buy">
-                  <button class="btn">
-                    <span>COMPRAR</span><i></i>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="container">
-            <div class="card">
-              <div class="imgBx">
-                <img src="assets/teste3s.png">
-              </div>
-              <div class="contentBx">
-                <div class="size">
-                  <h3>Size :</h3>
-                  <span>P</span>
-                  <span>M</span>
-                  <span>G</span>
-                  <span>GG</span>
-                </div>
-                <div class="color">
-                  <h3>Cores :</h3>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </div>
-                <div class="buy">
-                  <button class="btn">
-                    <span>COMPRAR</span><i></i>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="container">
-            <div class="card">
-              <div class="imgBx">
-                <img src="assets/teste4s.png">
-              </div>
-              <div class="contentBx">
-                <div class="size">
-                  <h3>Size :</h3>
-                  <span>P</span>
-                  <span>M</span>
-                  <span>G</span>
-                  <span>GG</span>
-                </div>
-                <div class="color">
-                  <h3>Cores :</h3>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </div>
-                <div class="buy">
-                  <button class="btn">
-                    <span>COMPRAR</span><i></i>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="container">
-            <div class="card">
-              <div class="imgBx">
-                <img src="assets/teste5s.png">
-              </div>
-              <div class="contentBx">
-                <div class="size">
-                  <h3>Size :</h3>
-                  <span>P</span>
-                  <span>M</span>
-                  <span>G</span>
-                  <span>GG</span>
-                </div>
-                <div class="color">
-                  <h3>Cores :</h3>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </div>
-                <div class="buy">
-                  <button class="btn">
-                    <span>COMPRAR</span><i></i>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+     </section>
     </div>
   </li>
 </ul>

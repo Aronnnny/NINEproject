@@ -15,5 +15,6 @@ namespace Infra.Data.Context
         public DbSet<Endereco> Endereco { get; set; }
         public DbSet<Pedido> Pedido { get; set; }
         public DbSet<PedidoDetalhes> PedidoDetalhes { get; set; }
+        public DbSet<Admin> Admin { get; set;}
     }
 }

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { environment } from 'src/environments/environment';
+import { ProdutoModel } from 'src/app/models/produtomodel';
+import { CartService } from '../service/cart.service';
 
 @Component({
   selector: 'app-carrinho',
@@ -8,29 +8,36 @@ import { environment } from 'src/environments/environment';
   styleUrls: ['./carrinho.component.css']
 })
 export class CarrinhoComponent implements OnInit {
-  modalcarrinho: any;
-  Carrinho: any;
-  constructor(private http: HttpClient) { }
+  public products : ProdutoModel[] = [];
+  public grandTotal !: number;
+  constructor() { }
+
   ngOnInit(): void {
+    this.obterprodutos()
   }
-  getCarrinho() {
-    this.http.get('https://localhost:7131/api/Pedido')
+
+  adicionar(produto:ProdutoModel){
+    var produtoLocalStoge = localStorage.getItem("produtoLocalStoge");
+    if (!produtoLocalStoge) {
+        // se nao existir 
+          this.products.push(produto);            
+    } else {
+        // se ja existir 
+         this.products = JSON.parse(produtoLocalStoge);
+         this.products.push(produto);
+                    
+    }
+
+    localStorage.setItem("produtoLocalStoge", JSON.stringify(this.products));
+    
+   
+
   }
-  excluir(carrinho: CarrinhoComponent, template: any) {
-    console.log(carrinho);
-    this.Carrinho = carrinho;
-  }
-  excluirCarrinho() {
-    this.http.delete(`${environment.apibaseURL}ap/pedido`)
-      .subscribe(
-        resultado => {
-          console.log('Produto excluído com sucesso.');
-        },
-        erro => {
-          if (erro.status == 404) {
-            console.log('Produto não localizado.');
-          }
-        }
-      );
+
+  obterprodutos() : ProdutoModel[]{
+    var produtocarrinho = localStorage.getItem("produtolocal")
+    if(produtocarrinho){this.products=JSON.parse(produtocarrinho)}
+    return this.products 
   }
 }
+

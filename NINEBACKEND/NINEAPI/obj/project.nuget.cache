@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3mgWbu2zMk/edkN6qxxLhMfuudrIXiqX3wpxSXdy+99h8NzXOECWab2dGCzXtQbq6sB2NH48Ng438vYzjv4hAQ==",
+  "dgSpecHash": "OEoA46qJVJad9Wd2bXEiWLO24+Hbk/8qAN3vWlDIiQ3GZXP0afL9oNWmc8qV/2UqEe5FzK0J72hLnbM2Ibz+6Q==",
   "success": true,
-  "projectFilePath": "E:\\Projeto_NINEstore\\NineStore\\NINEBACKEND\\NINEAPI\\NINEAPI.csproj",
+  "projectFilePath": "D:\\Projeto_NINEstore\\NineStore\\NINEproject\\NINEBACKEND\\NINEAPI\\NINEAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aronc\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\aronc\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
